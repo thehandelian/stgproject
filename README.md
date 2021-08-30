@@ -1,2 +1,2 @@
 # stgproject
-trying to make a basic game
+Trying to make a basic game
