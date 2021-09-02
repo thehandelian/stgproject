@@ -2,23 +2,25 @@
 #define WINDOW_H
 
 #include <SDL.h>
+#include <SDL_image.h>
+
 #include <iostream>
 
 class Window {
-    public:
-
+   public:
     Window();
     ~Window();
 
-    private:
+    void display_picture(const char *image_name);
 
+   private:
     const char *window_name = "stgproject";
 
     int x_res = 640;
     int y_res = 480;
 
     SDL_Window *window = nullptr;
-    SDL_Surface *screenSurface = nullptr;
+    SDL_Surface *surface = nullptr;
 };
 
 #endif

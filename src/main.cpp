@@ -1,11 +1,13 @@
-#include <window.hpp>
 #include <iostream>
+#include <window.hpp>
 
 int main()
 {
-	std::cout << "let's make a window" << '\n';
+    std::cerr << "making a window" << '\n';
+    Window main_window;
 
-	Window my_window;
-
-	std::cout << "made a window" << '\n';
+	std::cerr << "showing picture" << '\n';
+	
+	main_window.display_picture("testimg.bmp");
+    std::cerr << "returning from main()" << '\n';
 }

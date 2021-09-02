@@ -34,3 +34,5 @@ stgproject
 
 # Build dir
 build/*
+
+.vscode/*
