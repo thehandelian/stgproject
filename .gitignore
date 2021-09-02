@@ -33,6 +33,5 @@
 stgproject
 
 # Build dir
-build/*
-
-.vscode/*
+/build/
+/.vscode
