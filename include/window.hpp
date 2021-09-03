@@ -21,6 +21,7 @@ class Window {
 
     SDL_Window *window = nullptr;
     SDL_Surface *surface = nullptr;
+    SDL_Renderer *renderer = nullptr;
 };
 
 #endif
